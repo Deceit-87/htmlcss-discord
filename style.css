@@ -7,12 +7,12 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing:border-box;
     text-decoration: none;
 }
 body{
     max-width: 1356px;
-    height: 20000px;
+    height: auto;
     background-color: rgb(40, 37, 37);
     margin: 0 auto;
 }
@@ -25,7 +25,7 @@ body{
     background-size: cover;
 }
 .debug{
-    border: solid 1px black;
+    border: black ;
 }
 
 .clearfix:after {
@@ -40,14 +40,22 @@ body{
     max-width: 960px;
     margin: 0 auto;
 }
+ul {
+    list-style: none;
+}
+a{
+    text-transform: capitalize;
 
+    color: white;
+}
 /* NAV BAR */
 
 
 .nav_bar a{
-    text-transform: capitalize;
-    height: 40px;
-    color: white;
+    margin: 0 auto;
+    text-align: center;
+   max-height: 40px;
+    
     
 
 }
@@ -55,9 +63,8 @@ body{
     padding: 10px;   
     text-align: center;
     display: inline;
-    list-style: none;
     line-height: 20px;
-    text-decoration-color: white;
+    
 }
 .nav_bar div{
     display: inline-block;
@@ -72,6 +79,7 @@ body{
     top: 0px;
     color: white;
     position: fixed;
+    background-color:rgba(30, 104, 241, 0.3);
     
 }
 
@@ -84,12 +92,11 @@ body{
      max-width: 23%;
  }
  .col-6{
-   left:270px;
      top: 10px;
      position: absolute;
      text-align: center;
      margin: 0 auto;
-     max-width:100%;
+     width:80%;
  }
 .nav_bar .col-3 a{
     position: absolute;
@@ -128,7 +135,7 @@ p{
 }
 .link-big {
     max-width: auto;
-    padding:10px 20px;
+    padding:10px 15px;
     display:inline-block;
     border-radius: 100px;
     margin:10px;
@@ -159,20 +166,7 @@ p{
 /* MAIN  */ 
 /* 3 SECTION X 2 DIV */
 
-.sec-1:after{
-    content: "";
-    display: block;
-    clear: both;
-}
-.sec-2:after{
-    content: "";
-    display: block;
-    clear: both;
-}
-.sec-3:after{
-    content: "";
-    display: block;
-    clear: both;
+
 }
 section div{
     max-width: 100%;
@@ -270,4 +264,75 @@ height: auto;}
 
 .sec-4 .link-big {
     display: block;
+    padding-bottom: 65px;
+}
+
+/* FOOTER */
+
+
+.bkg-footer {
+    max-width: 1356px;
+    height: 600px;
+    background-color: rgb(62, 62, 62);
+
+}
+
+.contatti{
+    padding-top: 40px;
+    max-width:960px;
+    margin: 0 auto;
+}
+footer img{
+    width: 15px;
+    height: auto;
+    line-height: 32px;
+}
+footer h2{
+    color: rgb(164, 147, 225);
+    padding-bottom: 20px;
+}
+.col-2{
+    padding:65px;
+    width: 35%;
+float: left;
+}
+
+.col-1{
+    padding:65px 0px 65px 0px;
+    margin: 0 auto;
+    float: left;
+    height: auto;
+    width:16%;
+    background-color: rgb(62, 62, 62);
+}
+.col-1 li{
+    padding-bottom: 5px;
+}
+
+.purple{
+    color: rgb(164, 147, 225);
+}
+.contact-list{
+    width: 100%;
+    height: 600px;
+}
+.lang select{
+    background-color: rgb(62, 62, 62);
+
+    border: none;
+}
+.lang{
+    padding: 0;
+height: 20px;}
+.lang option{
+    padding: 0;
+
+    line-height: 20px;
+    font-size: 7px;
+    
+}
+
+.col-2 i{
+    color:white;
+    padding:15px 5px;
 }
