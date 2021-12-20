@@ -129,7 +129,7 @@ header .link-big {
     padding:10px 20px;
     display:inline-block;
     border-radius: 100px;
-    margin:0;
+    margin:10px;
 
 }
 
@@ -151,4 +151,61 @@ header .link-big {
 }
 .link-black a{
     color: white;
+}
+
+
+/* MAIN  */ 
+/* 3 SECTION X 2 DIV */
+.sec-1{
+    position:relative;
+}
+
+.sec-1::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+section div{
+    width: 100%;
+    display:inline-block;
+}
+
+.col-8 img{
+    width: 100%;
+    height: auto;
+}
+.col-8{
+width: 60%;
+float: left;
+}
+
+
+
+.col-4{
+    float: left;
+    width: 32%;
+    height: auto;
+    padding-top: 33px;
+    padding-left: 40px;
+}
+
+.sec-1{
+padding-top: 90px;
+}
+
+.bkg-main{
+width: 100%;
+height: auto;
+background-color: white;
+}
+
+.col-4 p{
+padding-top:10px;
+font-size: 17px;
+color: rgb(43, 40, 40);
+}
+
+.col-4 h1{
+    font-size: 37px;
+    color: rgb(43, 40, 40);
 }
