@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 body{
     width: 1356px;
@@ -44,7 +45,7 @@ body{
 
 
 .nav_bar a{
-    text-decoration: none;
+    text-transform: capitalize;
     height: 40px;
     color: white;
     
@@ -124,7 +125,7 @@ p{
     margin: 0 auto;
 
 }
-header .link-big {
+.link-big {
     width: auto;
     padding:10px 20px;
     display:inline-block;
@@ -156,11 +157,18 @@ header .link-big {
 
 /* MAIN  */ 
 /* 3 SECTION X 2 DIV */
-.sec-1{
-    position:relative;
-}
 
-.sec-1::after{
+.sec-1:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.sec-2:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.sec-3:after{
     content: "";
     display: block;
     clear: both;
@@ -173,13 +181,18 @@ section div{
 .col-8 img{
     width: 100%;
     height: auto;
+    z-index: 1000;
 }
 .col-8{
 width: 60%;
 float: left;
 }
-
-
+.sec-2 .col-8{
+    float: right;
+}
+.sec-2 .col-4{
+    float: right;
+}
 
 .col-4{
     float: left;
@@ -189,8 +202,8 @@ float: left;
     padding-left: 40px;
 }
 
-.sec-1{
-padding-top: 90px;
+.sec-1, .sec-2, .sec-3 {
+padding-top: 200px;
 }
 
 .bkg-main{
@@ -209,3 +222,5 @@ color: rgb(43, 40, 40);
     font-size: 37px;
     color: rgb(43, 40, 40);
 }
+
+
