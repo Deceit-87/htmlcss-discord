@@ -110,11 +110,45 @@ header .testo{
     color: white;
     text-align: center;
     padding-top:80px;
-    padding-bottom: 60px;
 }
 
 p{
     font-size: 17px;
     padding-top:60px;
 
+}
+
+.link{
+    padding-top: 30px;
+    width:44%;
+    margin: 0 auto;
+
+}
+header .link-big {
+    width: auto;
+    padding:10px 20px;
+    display:inline-block;
+    border-radius: 100px;
+    margin:0;
+
+}
+
+.link-white{
+
+    background-color: white;
+}
+
+.link-black{
+    
+    background-color: rgb(43, 40, 40);
+}
+
+.link a{
+    text-decoration: none;
+}
+.link-white a{
+    color:rgb(60, 56, 56)
+}
+.link-black a{
+    color: white;
 }
