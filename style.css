@@ -1,0 +1,28 @@
+/* centratura =960px */
+/* 1 header
+1 nav
+3 section
+1 footer */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug{
+    border: solid 1px black;
+}
+
+.clearfix:after {
+    content:"" ;
+    display: block;
+    clear: both;
+
+
+}
+
+.container{
+    min-width: 960px;
+    margin: 0 auto;
+}
