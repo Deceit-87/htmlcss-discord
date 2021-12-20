@@ -11,11 +11,13 @@
 }
 body{
     width: 1356px;
+    height: 20000px;
     background-color: rgb(40, 37, 37);
     margin: 0 auto;
 }
 
 .bkg{
+    position: relative;
     width: 1356px;
     height: 505px; ;
     background-image: url(./img/jumbo.png);
@@ -42,29 +44,77 @@ body{
 
 
 .nav_bar a{
+    text-decoration: none;
     height: 40px;
     color: white;
     
+
 }
 .nav_bar ul li{
+    padding: 10px;   
+    text-align: center;
     display: inline;
     list-style: none;
-    line-height: 40px;
+    line-height: 20px;
     text-decoration-color: white;
 }
 .nav_bar div{
-    width: calc(100%/3);
     display: inline-block;
 
 
 }
 .nav_bar{
-    width: 100%;
-    min-height: 40px;
-    position: relative;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    z-index: 9999;
+    top: 0px;
     color: white;
+    position: fixed;
+    
 }
 
 #logo{
-    line-height: 40px;
+    padding-top: 10px;
+    width: 90px;
+    height: auto;
+}
+ .col-3{
+     width: 23%;
+ }
+ .col-6{
+     top: 10px;
+     position: absolute;
+     text-align: center;
+     margin: 0 auto;
+     width:50%;
+ }
+.nav_bar .col-3 a{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 5px;
+    height: 27px;
+}
+    
+
+
+/* HEADER */
+
+header .testo{
+    margin: 0 auto;
+    width: 60%;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding-top:80px;
+    padding-bottom: 60px;
+}
+
+p{
+    font-size: 17px;
+    padding-top:60px;
+
 }
