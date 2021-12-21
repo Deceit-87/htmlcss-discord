@@ -9,6 +9,7 @@
     padding: 0;
     box-sizing:border-box;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 }
 body{
     max-width: 1356px;
@@ -85,7 +86,7 @@ a{
 
 #logo{
     padding-top: 10px;
-    max-width: 90px;
+    width: 90px;
     height: auto;
 }
  .col-3{
@@ -98,17 +99,21 @@ a{
      margin: 0 auto;
      width:80%;
  }
-.nav_bar .col-3 a{
+.nav_bar .iscrizione{
+    background-color: lightgray;
+}
+footer .iscrizione{
+  background-color: rgb(164, 147, 225);
+   
+}
+.iscrizione{
     position: absolute;
     right: 0px;
     top: 10px;
-    background-color: lightgray;
     border-radius: 20px;
-    padding: 5px;
+    padding:5px 15px;
     height: 27px;
 }
-    
-
 
 /* HEADER */
 
@@ -129,7 +134,7 @@ p{
 
 .link{
     padding-top: 30px;
-    max-width:44%;
+    max-width:48%;
     margin: 0 auto;
 
 }
@@ -247,8 +252,13 @@ height: auto;}
     margin: 0 auto;
     background-image: url(./img/stars.svg);
     background-size: cover;
-    padding: 8px 58px;
+    padding: 5px 14px;
     background-position-y: -132px;
+    width: 100%;
+}
+.bkg-small{
+    width: 47%;
+    margin: 0 auto;
 }
 
 
@@ -293,6 +303,7 @@ footer h2{
 }
 .col-2{
     padding:65px;
+    padding-left:15px;
     width: 35%;
 float: left;
 }
@@ -314,7 +325,7 @@ float: left;
 }
 .contact-list{
     width: 100%;
-    height: 600px;
+    height: auto;
 }
 .lang select{
     background-color: rgb(62, 62, 62);
@@ -335,4 +346,10 @@ height: 20px;}
 .col-2 i{
     color:white;
     padding:15px 5px;
+}
+
+.credits{
+    position: relative;
+    width: 100%;
+    float: left;
 }
